@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto&display=swap');
+
+body {
+    /*background-color: rgb(215, 239, 240);*/
+    background-image: url('/IMAGES/pink.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'roboto', sans-serif;
+}
+h1 {
+    font-family: 'Fasthand', cursive;
+}
+
+#SAR {
+    background-color: brown;
+    color: white;
+    text-shadow: 12px;
+}
+
+.TKD {
+    background-color: black;
+    color: yellow;
+    margin: 0px;
+}
+
+nav {
+    background-color: darkblue; 
+    color:white; 
+    text-align: center;
+    margin: 0px;
+    background-image: url('/IMAGES/milkyWay.jpeg');
+}
+
+nav a {
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0px;
+}
+
+h1.test {
+    color:green;
+}
+
+h1 + p {
+    color:blue;
+}
+
+/*table {
+    background-color: white;
+    border-color: fuchsia;
+    color: navy;
+    width: 500px;
+    table-layout: fixed;
+}*/
+
+.about {
+    columns: 100px 2;
+}
+
+header {
+    background-color: darkblue; 
+    color:white; 
+    text-align: center;
+    margin: 0px;
+}
+
+.faves {
+    text-align:center;
+}
+.columnl {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin:auto;
+}
+.columnr {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    margin:auto;
+    
+}
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+article {
+    width: 95%;
+    margin: 2rem auto;
+    padding: 20px;
+    }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .footer {
+    background-color: darkblue; 
+    color: white; 
+    text-align: center;
+    margin: 0px; 
+    border: 0px;
+  }
+
+  
+
+  .navButton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid white;
+  }
+
+  .navButton:hover {
+    background-color: lightblue;
+    color: white;
+  }
