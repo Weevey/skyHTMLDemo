@@ -127,6 +127,9 @@ article {
     border: 0px;
   }
 
+  .image-blurred-edge {
+    border-radius: 25px;
+}
   
 
   .navButton {
