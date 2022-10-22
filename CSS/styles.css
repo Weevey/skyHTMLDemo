@@ -10,6 +10,15 @@ body {
 }
 h1 {
     font-family: 'Fasthand', cursive;
+    font-size: 2cm;
+}
+
+p {
+    font-size: medium;
+}
+
+li {
+    font-size: medium;
 }
 
 #SAR {
