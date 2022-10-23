@@ -9,7 +9,21 @@ body {
     font-family: 'roboto', sans-serif;
 }
 h1 {
-    font-family: 'Fasthand', cursive;
+    font-family: 'Tahoma';
+    font-size: 2cm;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1cm;
+}
+
+p {
+    font-size: medium;
+}
+
+li {
+    font-size: medium;
 }
 
 #SAR {
@@ -29,7 +43,7 @@ nav {
     color:white; 
     text-align: center;
     margin: 0px;
-    background-image: url('/IMAGES/milkyWay.jpeg');
+    background-image: url('/IMAGES/prism-crystal-lines-abstract-4k-eb-3840x2160-1.jpeg');
 }
 
 nav a {

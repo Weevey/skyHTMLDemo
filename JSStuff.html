@@ -3,17 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS sandbox</title>
-    <script>
-        
-    </script>
-  </head>
+   <!-- CSS only -->
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    
+    <!--Local CSS-->
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    </head>
+  <!--Header-->
+  <header style="background-color: darkblue; color: white; text-align: center">
+    <h1>Javascript testing page</h1>
+  </header>
   <body>
-    <h1>Lets change Steve to Ayres</h1>
+    <!--Nav bar-->
+    <nav class="navbar sticky-top">
+      <div
+        class="container-fluid"
+        style="padding-right: 200px; padding-left: 200px;"
+      >
+        <a href="/AboutMe.html"><button class="button navButton">About Me</button></a> |
+        <a href="/Favourites.html"><button class="button navButton">My Favourites</button></a> |
+        <a href="/Contact.html"><button class="button navButton">Contact Me</button></a> | 
+        <a href="/JSStuff.html"><button class="button navButton">JavaScript stuff</button></a>
+      </div>
+    </nav>  
+    <h2>Lets change Steve to Ayres</h2>
     <p id="name">Steve</p>
 
-    <button type="button" onclick="buttpress()">
+    <button id="butt" type="button" onclick="buttpress()">
       Change to Ayres
     </button>
 
