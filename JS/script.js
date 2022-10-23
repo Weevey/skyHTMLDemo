@@ -10,3 +10,4 @@ function revert() {
 function buttpress() {
     document.getElementById('name').innerHTML = 'Ayres';
 }
+
