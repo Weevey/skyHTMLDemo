@@ -5,72 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS sandbox</title>
-   <!-- CSS only -->
+    <!-- CSS only -->
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    
+
     <!--Local CSS-->
     <link rel="stylesheet" href="/CSS/styles.css" />
-    <link rel="stylesheet" href="/CSS/styles.css" />
-    </head>
+    
+  </head>
   <!--Header-->
-  <header style="background-color: darkblue; color: white; text-align: center">
+  <header>
     <h1>Javascript testing page</h1>
   </header>
   <body>
     <!--Nav bar-->
     <nav class="navbar sticky-top">
-      <div 
+      <div
         class="container-fluid"
-        style="padding-right: 200px; padding-left: 200px;"
+        style="padding-right: 200px; padding-left: 200px"
       >
-        <a href="/AboutMe.html"><button class="button navButton">About Me</button></a> |
-        <a href="/Favourites.html"><button class="button navButton">My Favourites</button></a> |
-        <a href="/Contact.html"><button class="button navButton">Contact Me</button></a> | 
-        <a href="/JSStuff.html"><button class="button navButton">JavaScript stuff</button></a>
+        <a href="/AboutMe.html"
+          ><button class="button navButton">About Me</button></a
+        >
+        |
+        <a href="/Favourites.html"
+          ><button class="button navButton">My Favourites</button></a
+        >
+        |
+        <a href="/Contact.html"
+          ><button class="button navButton">Contact Me</button></a
+        >
+        |
+        <a href="/JSStuff.html"
+          ><button class="button navButton">JavaScript stuff</button></a
+        >
       </div>
-    </nav>  
+    </nav>
     <div class="row">
       <div class="col-sm-1"></div>
-      <div class="col-sm-7">
-        <h2>Let's change Steve to Ayres. Use the button below to switch the name:</h2>
+      <div class="col-sm-8">
+        <h2>
+          Let's change Steve to Ayres. Use the button below to switch the name:
+        </h2>
       </div>
-        <div class="col-sm-4"></div>
+      <div class="col-sm-3"></div>
     </div>
-    <br>
-    
+    <br />
+
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-3">
         <h2 id="name">Steve</h2>
-        </div>
-        <div class="col-sm-3">
-        <button id="butt" type="button" class="button navButton" onclick="buttpress()">
-        Change to Ayres
+      </div>
+      <div class="col-sm-3">
+        <button
+          id="butt"
+          type="button"
+          class="button navButton"
+          onclick="buttpress()"
+        >
+          Change to Ayres
         </button>
-        </div>
-    
-    <div class="col-sm-5"></div>
+      </div>
 
+      <div class="col-sm-5"></div>
     </div>
-    
-    
-  
 
-  <div>
+    <div>
+      <br />
+      <hr />
+      <br />
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <img id="change" src="/IMAGES/Mrew.png" class="center" />
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+        <br>
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 center">
+              <button
+                type="button"
+                class="button navButton"
+                onclick="myFunction()"
+              >
+                Sky logo
+              </button>
+            
+              
+              
+              <button type="button" class="button navButton" onclick="revert()">
+                MREW logo
+              </button>
+              </div>
+            
+            <div class="col-sm-1"></div>
+          </div>
+        
+        
+      </div>
+    </div>
     <br>
-    <hr>
     <br>
-   <img id="change" src="/IMAGES/Mrew.png">
-    <button type="button" class="button navButton" onclick="myFunction()">Sky logo</button>
-    <button type="button" class="button navButton" onclick="revert()">MREW logo</button>
+    
     <script src="/JS/script.js"></script>
-  </div>
   </body>
+  <div class="fixed-bottom">
+    <p class="footer">
+      © Steve Ayres is a copyrighted entity, copying Steve is not illegal but is frowned upon!
+    </p>
+  </div>
 </html>
